@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">NewPermission</string>
+
+    <string name="ok">OK</string>
+
+    <string name="info_title">Information</string>
+    <string name="error_title">Error</string>
+
+    <string name="not_needed">このバージョンのAndroidでは権限確認が不要です</string>
+    <string name="granted_section">＜許可＞</string>
+    <string name="denied_section">＜拒否＞</string>
+    <string name="granted">権限利用が許可されています</string>
+    <string name="denied">権限利用が許可されていません（または宣言されていません）</string>
+    <string name="denied_app_op">権限利用がユーザに禁止されています</string>
+
+    <string-array name="sample_titles">
+        <item>単独権限の確認と要求</item>
+        <item>複数権限の確認と要求</item>
+        <item>Manifestで宣言していない権限確認</item>
+        <item>対象外権限の確認</item>
+        <item>Manifestで宣言していない対象外権限の確認</item>
+        <item>Preview 1とPreview2以降の違い確認</item>
+        <item>PermissionChecker: CAMERA</item>
+        <item>PermissionChecker: READ_CONTACTS</item>
+        <item>PermissionChecker: INTERNET</item>
+        <item>PermissionChecker: WAKE_LOCK</item>
+        <item>アプリの設定画面</item>
+    </string-array>
+    <string-array name="sample_descriptions">
+        <item>CAMERA</item>
+        <item>CAMERA, READ_SMS, SEND_SMS (SMSの権限確認はまとめられる）</item>
+        <item>M Preview 1ではNPEで失敗、Preview 2以降では拒否</item>
+        <item>INTERNET（確認なしで許可）</item>
+        <item>WAKE_LOCK（確認なしで拒否）</item>
+        <item>WRITE_EXTERNAL_STORAGEはPreview 2から対象</item>
+        <item>次バージョンのSupport Libraryに入る予定のPermissionCheckerクラスでの確認</item>
+        <item>PermisisonCheckerクラスでの確認（未宣言権限）</item>
+        <item>PermissionChackerクラスでの確認（対象外、宣言済み）</item>
+        <item>PermissionChackerクラスでの確認（対象外、未宣言）</item>
+        <item>アプリの設定画面を呼び出す</item>
+    </string-array>
+    <string name="title_activity_sample">SampleActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
